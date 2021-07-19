@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style 
+        include ../static/style.css
+
+block content
+    section#intro
+        div Dance Academy
+        div.small-head Eat Sleep Dance Repeat
+
+    section#sponsors
+        h2 Our Sponsors
+        div#sponsor-images
+          img(src="/static/microsoft.png", alt="", class="spImage")
+          img(src="/static/apple.png", alt="", class="spImage")
+          img(src="/static/skype.png", alt="", class="spImage")

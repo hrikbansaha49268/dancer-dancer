@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: #3c0909e3;
+    padding: 13px 4px;
+    font-family: 'Crimson Text';
+    font-size: 18px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: gray;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#intro{
+    font-size: 89px;
+    font-family: 'Zen Tokyo Zoo';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: center / cover no-repeat url("/static/d-a-1.jpg");
+    height: 437px;
+    background-color: red;
+}
+
+#sponsors{
+    height: 380px;
+    background-color: rgb(255, 165, 104);
+}
+
+.small-head{
+    margin: 10px 0;
+    font-size: 48px;
+}
+
+#sponsors h2{
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 74px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 23px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 30px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+.spImage{
+    height: 80%;
+    margin: 21px 106px;
+}
+
+#sponsor-images{
+    height: 120px;
+    max-height: 1177px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+#footer{
+    display: flex;
+    font-family: 'Crimson Text', serif;
+    color: white;
+    height: 60px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}

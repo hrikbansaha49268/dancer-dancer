@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+  title Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+          div#logo 
+            img(src="/static/logo.png", alt="")
+            | DA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact Us]
+    
+    section#intro
+        div Dance Academy
+        div.small-head Eat Sleep Dance Repeat
+
+    section#sponsors
+        h2 Our Sponsors
+        div#sponsor-images
+          img(src="/static/microsoft.png", alt="", class="spImage")
+          img(src="/static/apple.png", alt="", class="spImage")
+          img(src="/static/skype.png", alt="", class="spImage")
+    
+    footer#footer
+        | Copyright © 2021 danceacademy.com | All rights reserved.
+    script
+      include ../static/index.js
